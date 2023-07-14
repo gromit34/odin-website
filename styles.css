@@ -31,7 +31,7 @@ header {
     background-color:#1F2937;
     justify-content:center;
     gap:25px;
-    padding:50px;
+    padding:50px 50px 200px 50px;
 }
 
 .sliggy h1 {
@@ -42,4 +42,20 @@ header {
 .sliggy p{
     font-size:18px;
     color:#E5E7EB
+}
+.info {
+    font-size:36px;
+    font-weight:800px;
+    color:#1F2937;
+    text-align:center;
+
+}
+.third{
+    display:flex;
+    justify-content:center;
+}
+.brothers{
+    color:gray;
+    font-size:18px;
+    display:flex;
 }
