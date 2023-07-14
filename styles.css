@@ -3,6 +3,8 @@ body {
     flex-direction:column;
     padding:0;
     margin:0;
+    min-height:100vh;
+    
 }
 .header{
     display:flex;
@@ -53,20 +55,58 @@ header {
 .third{
     display:flex;
     justify-content:center;
+    padding:100px;
 }
 .brothers{
     color:gray;
     font-size:18px;
     display:flex;
+    flex-direction:column;
 }
 .quote{
     display:flex;
     background-color: #E5E7EB;
     flex-direction:column;
     align-items:center;
+    padding:50px;
 }
 .quote2{
     font-size:36px;
     color:#1F2937;
     font-style:italic;
+}
+.bongus{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:50px;
+}
+.extra{
+    display:flex;
+    background-color:#3882F6;
+    padding:16px 80px;
+}
+.money{
+    color:white;
+}
+.bego{
+    font-weight:bold;
+    font-size:20px;
+}
+
+
+
+
+
+
+
+
+footer{
+    margin-top:auto;
+    background-color:#1F2937;
+    display:flex;
+    padding:16px;
+    justify-content:center;
+    align-items:center;
+    color:white;
 }
