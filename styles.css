@@ -33,7 +33,7 @@ header {
     background-color:#1F2937;
     justify-content:center;
     gap:25px;
-    padding:50px 50px 200px 50px;
+    padding:50px 50px 150px 50px;
 }
 
 .sliggy h1 {
@@ -44,6 +44,13 @@ header {
 .sliggy p{
     font-size:18px;
     color:#E5E7EB
+}
+.sliggy button{
+    background-color:#3882F6;
+    padding: 4px 16px;
+    color:white;
+    border-radius:12px;
+    border:1px solid #3882F6;
 }
 .info {
     font-size:36px;
@@ -56,12 +63,17 @@ header {
     display:flex;
     justify-content:center;
     padding:100px;
+    gap:8px;
 }
 .brothers{
     color:gray;
     font-size:18px;
     display:flex;
     flex-direction:column;
+}
+.brothers img {
+    border-radius:12px;
+    border:2px solid #3882F6;
 }
 .quote{
     display:flex;
@@ -85,7 +97,18 @@ header {
     display:flex;
     background-color:#3882F6;
     padding:16px 80px;
+    border-radius:12px;
+    align-items:center;
 }
+.bungun button{
+    border-radius:12px;
+    background-color:#3882F6;
+    padding: 8px;
+    color:white;
+    border: 1px solid white;
+}
+
+
 .money{
     color:white;
 }
