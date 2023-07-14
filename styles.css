@@ -8,7 +8,6 @@ body {
     display:flex;
     justify-content:space-around;
     background-color:#1F2937;
-    color:white;
     padding:24px;
     margin:0;
     align-items:center;
@@ -17,11 +16,30 @@ body {
 a {
     text-decoration:none;
     color:white;
-    font-size:14px;
+    font-size:18px;
     padding: 12px;
+    color:#E5E7EB;
 }
 
 header {
     font-weight:800;
     font-size:24px;
+    color:#F9FAF8
+}
+.chungus {
+    display:flex;
+    background-color:#1F2937;
+    justify-content:center;
+    gap:25px;
+    padding:50px;
+}
+
+.sliggy h1 {
+    color:#F9FAF8;
+    font-weight:800px;
+    font-size:48px;
+}
+.sliggy p{
+    font-size:18px;
+    color:#E5E7EB
 }
