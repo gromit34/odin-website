@@ -63,7 +63,7 @@ header {
     display:flex;
     justify-content:center;
     padding:100px;
-    gap:8px;
+    gap:50px;
 }
 .brothers{
     color:gray;
@@ -83,11 +83,22 @@ header {
     flex-direction:column;
     align-items:center;
     padding:50px;
+    
 }
 .quote2{
     font-size:36px;
     color:#1F2937;
     font-style:italic;
+    width:800px;
+    margin-bottom:0;
+}
+.log{
+    text-align:end;
+    width:700px;
+    margin-bottom:0;
+    font-weight:bold;
+    color:#1F2937;
+    font-size:24px;
 }
 .bongus{
     display:flex;
@@ -98,25 +109,37 @@ header {
 .extra{
     display:flex;
     background-color:#3882F6;
-    padding:16px 80px;
+    padding:50px 100px;
     border-radius:12px;
     align-items:center;
+    justify-content:space-between;
+    width:650px;
 }
 .bungun button{
+    display:flex;
     border-radius:12px;
     background-color:#3882F6;
     padding: 8px;
     color:white;
     border: 1px solid white;
+    width:100px;
+    justify-content:center;
 }
 
 
 .money{
     color:white;
+    display:flex;
+    margin:0;
+    flex-direction:column;
 }
 .bego{
     font-weight:bold;
     font-size:20px;
+    margin:0;
+}
+.cool{
+    margin:0;
 }
 
 
@@ -126,7 +149,10 @@ img {
 
 
 }
-
+.brothers p{
+    width:208px;
+    
+}
 
 
 
